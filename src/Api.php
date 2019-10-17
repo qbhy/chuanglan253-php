@@ -5,7 +5,7 @@ namespace Qbhy\CL253;
 use Hanson\Foundation\AbstractAPI;
 use Psr\Http\Message\ResponseInterface;
 
-class Api extends AbstractAPI
+abstract class Api extends AbstractAPI
 {
     protected $app;
 

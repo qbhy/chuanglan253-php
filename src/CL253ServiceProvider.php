@@ -9,8 +9,8 @@ class CL253ServiceProvider implements ServiceProviderInterface
 {
     public function register(Container $pimple)
     {
-        $pimple['api'] = function (CL253 $app) {
-            return new Api($app);
+        $pimple['domestic'] = function (CL253 $app) {
+            return new Domestic($app);
         };
     }
 }

@@ -7,7 +7,7 @@ use Hanson\Foundation\Foundation;
 /**
  * Class CL253
  *
- * @property-read Api $api
+ * @property-read Domestic $domestic
  *
  * @package Qbhy\CL253
  */

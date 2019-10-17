@@ -16,8 +16,8 @@ require 'vendor/autoload.php';
 
 $config = [
     'debug'=>true,
-    'access_key' => 'ACR_ACCESS_KEY',
-    'secret_key' => 'ACR_SECRET_KEY',
+    'account' => 'account',
+    'secret' => 'secret',
 ];
 
 $acr = new CL253($config);
