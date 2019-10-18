@@ -20,7 +20,10 @@ $config = [
     'secret' => 'secret',
 ];
 
-$acr = new CL253($config);
+$sms = new CL253($config);
+
+var_dump($sms->domestic->sendSms('176xxxx3329', '测试短信'));
+
 ```
 
 
